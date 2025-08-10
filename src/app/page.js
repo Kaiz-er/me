@@ -8,8 +8,10 @@ export default function Home() {
     <div className="mx-auto max-w-3xl">
       <Header />
       <Intro />
-      <Experience />
-      <Projects />
+      <div className="mx-3 sm:mx-0">
+        <Experience />
+        <Projects />
+      </div>
     </div>
   );
 }

@@ -2,26 +2,25 @@ import Image from "next/image";
 
 export default function Intro() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center mt-6 sm:mt-0">
       <div>
         <Image src="/avatar.svg" alt="avatar" width="200" height="200" />
       </div>
       <div>
         <h2 className="font-bold">Hi, I'm Kaizer!</h2>
-        <h2 className="flex items-center">
-          <span>A full-stack software engineer based in Singapore</span>
-          <span className="ml-2">
-            <Image
-              src="/singapore.svg"
-              alt="singapore"
-              width="20"
-              height="20"
-            />
-          </span>
-          <span>.</span>
+        <h2 className="flex items-center flex-wrap">
+          A full-stack software engineer based in Singapore
+          <Image
+            src="/singapore.svg"
+            alt="singapore"
+            width={20}
+            height={20}
+            className="ml-1"
+          />
         </h2>
+
         <div className="pt-2">
-          <span className="flex">
+          <span className="sm:flex sm:flex-row flex-col">
             <a
               href="https://sg.linkedin.com/in/quek-kaizer"
               target="_blank"
