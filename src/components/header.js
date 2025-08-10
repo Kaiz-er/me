@@ -9,7 +9,7 @@ export default function Header() {
           className="flex w-24 flex-auto justify-center transition-colors hover:bg-neutral-700 text-neutral-300 hover:text-neutral-50 transition-colors"
           href=""
         >
-          About
+          Experience
         </a>
         <a
           className="flex w-24 flex-auto justify-center transition-colors hover:bg-neutral-700 text-neutral-300 hover:text-neutral-50 transition-colors"
