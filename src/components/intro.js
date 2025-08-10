@@ -4,14 +4,19 @@ export default function Intro() {
   return (
     <div className="flex justify-center items-center mt-6 sm:mt-0">
       <div>
-        <Image src="/avatar.svg" alt="avatar" width="200" height="200" />
+        <Image
+          src={`${process.env.PAGES_BASE_PATH || ""}/avatar.svg`}
+          alt="avatar"
+          width="200"
+          height="200"
+        />
       </div>
       <div>
         <h2 className="font-bold">Hi, I&apos;m Kaizer!</h2>
         <h2 className="flex items-center flex-wrap">
           A full-stack software engineer based in Singapore
           <Image
-            src="/singapore.svg"
+            src={`${process.env.PAGES_BASE_PATH || ""}/singapore.svg`}
             alt="singapore"
             width={20}
             height={20}
@@ -29,7 +34,7 @@ export default function Intro() {
             >
               Find me on
               <Image
-                src="/linkedin.svg"
+                src={`${process.env.PAGES_BASE_PATH || ""}/linkedin.svg`}
                 alt="linkedin"
                 width="20"
                 height="20"
