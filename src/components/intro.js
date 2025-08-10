@@ -7,7 +7,7 @@ export default function Intro() {
         <Image src="/avatar.svg" alt="avatar" width="200" height="200" />
       </div>
       <div>
-        <h2 className="font-bold">Hi, I'm Kaizer!</h2>
+        <h2 className="font-bold">Hi, I&apos;m Kaizer!</h2>
         <h2 className="flex items-center flex-wrap">
           A full-stack software engineer based in Singapore
           <Image
